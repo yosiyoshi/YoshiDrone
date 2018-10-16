@@ -32,4 +32,4 @@ SC_MODULE(multiplier)
 		SC_METHOD(do_multiple);
 		sensitive << a << b;
 	}
-}
+};
