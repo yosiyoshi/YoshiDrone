@@ -4,7 +4,9 @@ Project code: 朱雀, drone-programming project in Asia.
 ## Concept & Feature
 Experimental study for autopilot drones in Asian countries.
 
-Especially  for "extravisual long distance" autopilot.
+Especially  for "extravisual long distance" autopilot,
+
+And Autopilot through voice recognition.
 
 ## Project Environment Expected
 C++, English/Chinese/Japanese as the communication language if group working.
