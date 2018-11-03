@@ -15,3 +15,6 @@ Example of drone platform: Drones of DJI-products.
 
 ## English Name of Project
 YoshiDrone for the project name, Zhuque/Suzaku for the project code.
+
+## Update 2018/11/03: Initial Project
+Created tello autopilot sample as "drone.py" on this repository.
