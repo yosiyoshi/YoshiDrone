@@ -3,6 +3,10 @@
 Created on Sat Nov  3 13:36:18 2018
 
 @author: Yosiyoshi
+DJI/Ryze Tech Tello AutoPilot sample to let it take off and fly a while, if battery is empty, it'll automatically land.
+Warning: It's your responsibility to fail or make errors in executing this program code, or get any bad aftermath.
+Local usage: from drone import TelloAutoPilot
+(c) 2018 Yosiyoshi All Rights Reserved.
 """
 import threading
 import socket
@@ -33,7 +37,6 @@ class TelloAutoPilot():
     def end(self):
         sys.exit()
 
-    # 各種コマンド送信
     def takeoff(self):
         try:
             sent = self.sock.sendto('takeoff'.encode(encoding="utf-8"), self.tello)
@@ -95,7 +98,6 @@ class TelloAutoPilot():
         except:
             pass
 
-    # Telloからのレスポンス受信
     def recvSocket(self):
         while True: 
             try:
