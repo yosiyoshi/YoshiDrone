@@ -110,5 +110,6 @@ if __name__ == '__main__':
     tap=TelloAutoPilot()
     tap.initConnection()
     tap.takeoff()
+    sleep(5)
     tap.land()
     sys.exit()
