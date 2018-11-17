@@ -10,6 +10,10 @@ Project code: 朱雀, drone-programming project in Asia.
 
 2018/11/16 Gobot SDK: First Flight; Launch succeeded and Landing succeeded 
 
+![Golang prompt](https://github.com/yosiyoshi/YoshiDrone/blob/master/drone.png "Golang prompt")
+
+![Tello autopilot](https://github.com/yosiyoshi/YoshiDrone/blob/master/drone2.png "Tello autopilot")
+
 [Flight video] https://youtu.be/UKWdrdhSFF0
 
 ## Concept & Feature
