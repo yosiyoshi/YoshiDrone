@@ -10,6 +10,8 @@ Project code: 朱雀, drone-programming project in Asia.
 
 2018/11/16 Gobot SDK: First Flight; Launch succeeded and Landing succeeded 
 
+[Flight video] https://youtu.be/UKWdrdhSFF0
+
 ## Concept & Feature
 Experimental study for autopilot drones in Asian countries.
 
